@@ -36,12 +36,21 @@ month_dict = {
     "11": "Nov",
     "12": "Dec"
 }
+
+
+def k_to_fah(kalvin_temp):
+    return round(9/5 * (kalvin_temp - 273.15) + 32)
+
+
 for day in weather_dict["daily"]:
-    [year, month, day] = datetime.utcfromtimestamp(
+    [_year, _month, _day] = datetime.utcfromtimestamp(
         day['dt']).strftime('%Y-%m-%d').split("-")
 
-    pretty_date = f'{month_dict[month]} {day} {year}'
+    day_temp = k_to_fah(day["temp"]["day"])
+    pretty_date = f'{month_dict[_month]} {_day} {_year}'
+
     print(pretty_date)
+    print(day_temp)
     print("------")
 
 
