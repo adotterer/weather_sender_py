@@ -17,9 +17,9 @@ API_KEY = os.environ.get("OPEN_WEATHER_API_KEY")
 # with open("./json/weather.json", "w") as outfile:
 #     json.dump(json_data, outfile, indent=4)
 
-json_file = open("./json/weather.json","r")
+weather_dict = json.load(open("./json/weather.json","r"))
 
-print(json.load(json_file))
+print(weather_dict["daily"])
 
 # y = json.loads(json_data)
 # print(json_data["daily"])
