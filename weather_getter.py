@@ -21,10 +21,28 @@ weather_dict = json.load(open("./json/weather.json", "r"))
 
 # print(weather_dict["daily"])
 
+
+month_dict = {
+    "01": "Jan",
+    "02": "Feb",
+    "03": "Mar",
+    "04": "Apr",
+    "05": "May",
+    "06": "Jun",
+    "07": "Jul",
+    "08": "Aug",
+    "09": "Sep",
+    "10": "Oct",
+    "11": "Nov",
+    "12": "Dec"
+}
 for day in weather_dict["daily"]:
-    print(
-        datetime.utcfromtimestamp(
-            day['dt']).strftime('%Y-%m-%d'))
+    [year, month, day] = datetime.utcfromtimestamp(
+        day['dt']).strftime('%Y-%m-%d').split("-")
+
+    pretty_date = f'{month_dict[month]} {day} {year}'
+    print(pretty_date)
+    print("------")
 
 
 # y = json.loads(json_data)
