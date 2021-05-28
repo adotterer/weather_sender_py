@@ -1,18 +1,16 @@
 import requests
 import json
 import os
+import re
 from dotenv import load_dotenv
 from pytz import timezone
 from datetime import datetime
 from geolocate import find_coordinates
 from month_dict import month_dict
 from emoji_dict import emoji_dict
-import re
 
-
-pacific = timezone('US/Pacific')
 load_dotenv("./.env")
-
+pacific = timezone('US/Pacific')
 API_KEY = os.environ.get("OPEN_WEATHER_API_KEY")
 
 
@@ -20,15 +18,14 @@ def k_to_fah(kalvin_temp):
     return round(9/5 * (kalvin_temp - 273.15) + 32)
 
 
-def write_memo(target_location="Lake Kachess, WA"):
-    # TODO: dynamic input of location to find weather
+def write_memo(target_location):
     location_dict = find_coordinates(target_location)
 
     latitude, longitude, name = location_dict.values()
     # strip name of united states
     name = re.sub(r", United States", " 🌈", name)
 
-    # comment back in to get current weather ~
+    # get current weather ~
     # |
     # |
     # v
@@ -59,7 +56,7 @@ def write_memo(target_location="Lake Kachess, WA"):
         fl_night_temp = k_to_fah(day["feels_like"]["night"])
         [day_of_month, _byebye] = calday.split()
         [weather] = day["weather"]
-        _id, forecast, forecast_description, icon = weather.values()
+        _id, forecast, forecast_description, _icon = weather.values()
 
         [_date, sunrise_timestamp] = str(datetime.fromtimestamp(
             day["sunrise"], tz=pacific)).split()
@@ -69,10 +66,10 @@ def write_memo(target_location="Lake Kachess, WA"):
             day["sunset"], tz=pacific)).split()
         [sunset_time, _notsure] = sunset_timestamp.split("-")
 
-        pretty_date = f'{month_dict[month]} {day_of_month} {year}'
+        pretty_date = f'{month_dict[month]} {day_of_month}, {year}'
 
         if forecast not in emoji_dict:
-            print("adding to emoji dict")
+            print(f"adding {forecast} to emoji dict")
             emoji_dict[forecast] = "✌️"[0:1]
 
         memo = open(f"./memos/daily.txt", "a+")

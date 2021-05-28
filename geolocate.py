@@ -7,8 +7,4 @@ def find_coordinates(location):
     response = {"latitude": geolocation.latitude,
                 "longitude": geolocation.longitude,
                 "name": geolocation.raw["display_name"]}
-    # print(geolocation.raw["display_name"])
     return response
-
-
-# 
