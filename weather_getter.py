@@ -4,16 +4,27 @@ import os
 from dotenv import load_dotenv
 from pytz import timezone
 from datetime import datetime
-from .geolocate import find_coordinates
-
+from geolocate import find_coordinates
+import re
 
 pacific = timezone('US/Pacific')
 load_dotenv("./.env")
+
 API_KEY = os.environ.get("OPEN_WEATHER_API_KEY")
 
-# print(API_KEY)
+# TODO: dynamic input of location to find weather
+location_dict = find_coordinates("Lake Kachess, WA")
+
+latitude, longitude, name = location_dict.values()
+# strip name of united states
+name = re.sub(r", United States", " 🌈", name)
+
+# comment back in to get current weather
+# |
+# |
+# v
 # response = requests.get(
-#     f"https://api.openweathermap.org/data/2.5/onecall?lat=48&lon=-122&cnt=5&exclude=minutely,hourly&appid={API_KEY}"
+#     f"https://api.openweathermap.org/data/2.5/onecall?lat={latitude}&lon={longitude}&cnt=5&exclude=minutely,hourly&appid={API_KEY}"
 # )
 
 # json_data = response.json()
@@ -89,6 +100,7 @@ for day in weather_dict["daily"]:
 
     print(f' {pretty_date} '.center(54, emoji_dict[forecast]))
 
+    print(name.center(53))
     print("\n \t", f'forecast: {forecast_description} ', "\n")
 
     print(f' Sunrise: {sunrise_time} '.rjust(24, "🌅"), "🌄".ljust(12, "🌄"))
