@@ -75,5 +75,6 @@ for day in weather_dict["daily"]:
 # sunrise time
 
 
+
 # y = json.loads(json_data)
 # print(json_data["daily"])
