@@ -45,7 +45,7 @@ def k_to_fah(kalvin_temp):
 
 
 for day in weather_dict["daily"]:
-    [_year, _month, _day] = datetime.utcfromtimestamp(
+    [year, month, calday] = datetime.utcfromtimestamp(
         day['dt']).strftime('%Y-%m-%d %H:%M:%S %Z%z').split("-")
 
     high = k_to_fah(day["temp"]["max"])
@@ -54,24 +54,25 @@ for day in weather_dict["daily"]:
     night_temp = k_to_fah(day["temp"]["night"])
     fl_day_temp = k_to_fah(day["feels_like"]["day"])
     fl_night_temp = k_to_fah(day["feels_like"]["night"])
-    pretty_date = f'{month_dict[_month]} {_day} {_year}'
-    sunrise = datetime.utcfromtimestamp(day["sunrise"])
+    [day_of_month, _byebye] = calday.split()
 
-    print(datetime.fromtimestamp(day["sunrise"], tz=pacific))
-    # print(datetime.utctimestamp(sunrise).strftime("%H:%M:%S %Z%"))
+    [_date, timestamp] = str(datetime.fromtimestamp(
+        day["sunrise"], tz=pacific)).split()
 
-    # print(pacific.localize(sunrise.astimezone(pacific)).strftime(fmt))
-    # sunset =
+    pretty_date = f'{month_dict[month]} {day_of_month} {year}'
+    [sunrise_time, _notsure] = timestamp.split("-")
 
-    # print(f' {pretty_date} '.center(34, "="))
-    # print("High".ljust(28, "."), str(high).rjust(5))
-    # print("Low".ljust(28, "."), str(low).rjust(5))
-    # print("Day".ljust(28, "."), str(day_temp).rjust(5))
-    # print("Night".ljust(28, "."), str(night_temp).rjust(5))
-    # print("Feels like day".ljust(28, "."), str(fl_day_temp).rjust(5))
-    # print("Feels like night".ljust(28, "."), str(fl_night_temp).rjust(5))
-    # print("      ")
-    # sunrise time
+    print(f' {pretty_date} '.center(54, "="))
+    print(f' Sunrise: {sunrise_time} '.rjust(24, "🌅"), "🌄".ljust(12, "🌄"))
+    print("High".ljust(48, "."), str(high).rjust(5))
+    print("Low".ljust(48, "."), str(low).rjust(5))
+    print("Day".ljust(48, "."), str(day_temp).rjust(5))
+    print("Night".ljust(48, "."), str(night_temp).rjust(5))
+    print("Feels like day".ljust(48, "."), str(fl_day_temp).rjust(5))
+    print("Feels like night".ljust(48, "."), str(fl_night_temp).rjust(5))
+    print("      ")
+
+# sunrise time
 
 
 # y = json.loads(json_data)
