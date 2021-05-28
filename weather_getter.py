@@ -5,116 +5,97 @@ from dotenv import load_dotenv
 from pytz import timezone
 from datetime import datetime
 from geolocate import find_coordinates
+from month_dict import month_dict
+from emoji_dict import emoji_dict
 import re
+weather_dict = json.load(open("./json/weather.json", "r"))
 
 pacific = timezone('US/Pacific')
 load_dotenv("./.env")
 
 API_KEY = os.environ.get("OPEN_WEATHER_API_KEY")
 
-# TODO: dynamic input of location to find weather
-location_dict = find_coordinates("Lake Kachess, WA")
-
-latitude, longitude, name = location_dict.values()
-# strip name of united states
-name = re.sub(r", United States", " 🌈", name)
-
-# comment back in to get current weather
-# |
-# |
-# v
-# response = requests.get(
-#     f"https://api.openweathermap.org/data/2.5/onecall?lat={latitude}&lon={longitude}&cnt=5&exclude=minutely,hourly&appid={API_KEY}"
-# )
-
-# json_data = response.json()
-
-# with open("./json/weather.json", "w") as outfile:
-#     json.dump(json_data, outfile, indent=4)
-
-weather_dict = json.load(open("./json/weather.json", "r"))
-
-# print(weather_dict["daily"])
-
-
-month_dict = {
-    "01": "Jan",
-    "02": "Feb",
-    "03": "Mar",
-    "04": "Apr",
-    "05": "May",
-    "06": "Jun",
-    "07": "Jul",
-    "08": "Aug",
-    "09": "Sep",
-    "10": "Oct",
-    "11": "Nov",
-    "12": "Dec"
-}
-
-emoji_dict = {
-    "Rain": "🌧",
-    "Clouds": "☁️",
-    "Clear": "☀️",
-}
-
-# this is necessary to make the emojiis one character long
-# for rjust, ljust
-for key in emoji_dict:
-    emoji_dict[key] = emoji_dict[key][0:1]
-
 
 def k_to_fah(kalvin_temp):
     return round(9/5 * (kalvin_temp - 273.15) + 32)
 
 
-for day in weather_dict["daily"]:
-    [year, month, calday] = datetime.utcfromtimestamp(
-        day['dt']).strftime('%Y-%m-%d %H:%M:%S %Z%z').split("-")
+def writeMemo(target_location="Lake Kachess, WA"):
+    # TODO: dynamic input of location to find weather
+    location_dict = find_coordinates(target_location)
 
-    high = k_to_fah(day["temp"]["max"])
-    low = k_to_fah(day["temp"]["min"])
-    day_temp = k_to_fah(day["temp"]["day"])
-    night_temp = k_to_fah(day["temp"]["night"])
-    fl_day_temp = k_to_fah(day["feels_like"]["day"])
-    fl_night_temp = k_to_fah(day["feels_like"]["night"])
-    [day_of_month, _byebye] = calday.split()
-    [weather] = day["weather"]
-    _id, forecast, forecast_description, icon = weather.values()
+    latitude, longitude, name = location_dict.values()
+    # strip name of united states
+    name = re.sub(r", United States", " 🌈", name)
 
-    # print(weather, "line 69")
+    # comment back in to get current weather ~
+    # |
+    # |
+    # v
+    # response = requests.get(
+    #     f"https://api.openweathermap.org/data/2.5/onecall?lat={latitude}&lon={longitude}&cnt=5&exclude=minutely,hourly&appid={API_KEY}"
+    # )
 
-    [_date, sunrise_timestamp] = str(datetime.fromtimestamp(
-        day["sunrise"], tz=pacific)).split()
-    [sunrise_time, _notsure] = sunrise_timestamp.split("-")
+    # json_data = response.json()
 
-    [_date, sunset_timestamp] = str(datetime.fromtimestamp(
-        day["sunset"], tz=pacific)).split()
-    [sunset_time, _notsure] = sunset_timestamp.split("-")
+    # with open("./json/weather.json", "w") as outfile:
+    #     json.dump(json_data, outfile, indent=4)
+    #
+    # ~ end ~
+    memo = open(f"./memos/daily.txt", "w")
+    memo.write("")
 
-    pretty_date = f'{month_dict[month]} {day_of_month} {year}'
+    for day in weather_dict["daily"]:
+        [year, month, calday] = datetime.utcfromtimestamp(
+            day['dt']).strftime('%Y-%m-%d %H:%M:%S %Z%z').split("-")
 
-    if forecast not in emoji_dict:
-        print("adding to emoji dict")
-        emoji_dict[forecast] = "✌️"[0:1]
+        high = k_to_fah(day["temp"]["max"])
+        low = k_to_fah(day["temp"]["min"])
+        day_temp = k_to_fah(day["temp"]["day"])
+        night_temp = k_to_fah(day["temp"]["night"])
+        fl_day_temp = k_to_fah(day["feels_like"]["day"])
+        fl_night_temp = k_to_fah(day["feels_like"]["night"])
+        [day_of_month, _byebye] = calday.split()
+        [weather] = day["weather"]
+        _id, forecast, forecast_description, icon = weather.values()
 
-    print(f' {pretty_date} '.center(54, emoji_dict[forecast]))
+        [_date, sunrise_timestamp] = str(datetime.fromtimestamp(
+            day["sunrise"], tz=pacific)).split()
+        [sunrise_time, _notsure] = sunrise_timestamp.split("-")
 
-    print(name.center(53))
-    print("\n \t", f'forecast: {forecast_description} ', "\n")
+        [_date, sunset_timestamp] = str(datetime.fromtimestamp(
+            day["sunset"], tz=pacific)).split()
+        [sunset_time, _notsure] = sunset_timestamp.split("-")
 
-    print(f' Sunrise: {sunrise_time} '.rjust(24, "🌅"), "🌄".ljust(12, "🌄"))
-    print("High".ljust(48, "."), str(high).rjust(5))
-    print("Low".ljust(48, "."), str(low).rjust(5))
-    print("Day".ljust(48, "."), str(day_temp).rjust(5))
-    print("Feels like day".ljust(48, "."), str(fl_day_temp).rjust(5))
-    print('\n')
-    print(f' Sunset: {sunset_time} '.rjust(24, "🌌"), "🌠".ljust(12, "🌠"))
-    print("Night".ljust(48, "."), str(night_temp).rjust(5))
-    print("Feels like night".ljust(48, "."), str(fl_night_temp).rjust(5))
-    print("\n")
-    print("\n")
+        pretty_date = f'{month_dict[month]} {day_of_month} {year}'
 
+        if forecast not in emoji_dict:
+            print("adding to emoji dict")
+            emoji_dict[forecast] = "✌️"[0:1]
 
-# y = json.loads(json_data)
-# print(json_data["daily"])
+        memo = open(f"./memos/daily.txt", "a+")
+        memo.write(f' {pretty_date} '.center(26, emoji_dict[forecast]) + "\n")
+        memo.write(name.center(20) + "\n")
+        memo.write("\n \t" + f'forecast: {forecast_description} ' + "\n")
+        memo.write(f'🌅 Sunrise: {sunrise_time} ' + "🌄".ljust(2, "🌄") + "\n")
+
+        # print(name.center(20))
+        # print("\n \t", f'forecast: {forecast_description} ', "\n")
+
+        # print(f' Sunrise: {sunrise_time} '.rjust(12, "🌅"), "🌄".ljust(6, "🌄"))
+        memo.write("High".ljust(24, ".") + str(high).rjust(2))
+        memo.write('\n')
+        memo.write("Low".ljust(24, ".") + str(low).rjust(2))
+        memo.write('\n')
+        memo.write("Day".ljust(24, ".") + str(day_temp).rjust(2))
+        memo.write('\n')
+        memo.write("Feels like day".ljust(24, ".") + str(fl_day_temp).rjust(2))
+        memo.write('\n')
+        memo.write(f'🌌 Sunset: {sunset_time} ' + "🌠".ljust(2, "🌠"))
+        memo.write('\n')
+        memo.write("Night".ljust(24, ".") + str(night_temp).rjust(2))
+        memo.write('\n')
+        memo.write("Feels like night".ljust(
+            24, ".") + str(fl_night_temp).rjust(2))
+        memo.write("\n")
+        memo.write("\n")
