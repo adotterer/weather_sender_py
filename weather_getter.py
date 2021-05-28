@@ -68,8 +68,7 @@ for day in weather_dict["daily"]:
     [day_of_month, _byebye] = calday.split()
     [weather] = day["weather"]
     _id, forecast, forecast_description, icon = weather.values()
-    print(emoji_dict[forecast][0:1], len(emoji_dict[forecast]))
-    print(forecast_description)
+
     # print(weather, "line 69")
 
     [_date, sunrise_timestamp] = str(datetime.fromtimestamp(
@@ -82,7 +81,13 @@ for day in weather_dict["daily"]:
 
     pretty_date = f'{month_dict[month]} {day_of_month} {year}'
 
-    print(f' {pretty_date} '.center(54, emoji_dict[forecast]), "\n")
+    if forecast not in emoji_dict:
+        print("adding to emoji dict")
+        emoji_dict[forecast] = "✌️"[0:1]
+
+    print(f' {pretty_date} '.center(54, emoji_dict[forecast]))
+
+    print("\n \t", f'forecast: {forecast_description} ', "\n")
 
     print(f' Sunrise: {sunrise_time} '.rjust(24, "🌅"), "🌄".ljust(12, "🌄"))
     print("High".ljust(48, "."), str(high).rjust(5))
@@ -93,7 +98,8 @@ for day in weather_dict["daily"]:
     print(f' Sunset: {sunset_time} '.rjust(24, "🌌"), "🌠".ljust(12, "🌠"))
     print("Night".ljust(48, "."), str(night_temp).rjust(5))
     print("Feels like night".ljust(48, "."), str(fl_night_temp).rjust(5))
-    print("      ")
+    print("\n")
+    print("\n")
 
 
 # y = json.loads(json_data)
