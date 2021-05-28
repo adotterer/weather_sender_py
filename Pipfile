@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 EZGmail = "*"
 python-dotenv = "*"
+pytz = "*"
 
 [dev-packages]
 EZGmail = "*"

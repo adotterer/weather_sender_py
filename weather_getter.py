@@ -3,7 +3,9 @@ import json
 import os
 from dotenv import load_dotenv
 from datetime import datetime
+from pytz import timezone
 
+pacific = timezone('US/Pacific')
 load_dotenv("./.env")
 API_KEY = os.environ.get("OPEN_WEATHER_API_KEY")
 
@@ -44,14 +46,33 @@ def k_to_fah(kalvin_temp):
 
 for day in weather_dict["daily"]:
     [_year, _month, _day] = datetime.utcfromtimestamp(
-        day['dt']).strftime('%Y-%m-%d').split("-")
+        day['dt']).strftime('%Y-%m-%d %H:%M:%S %Z%z').split("-")
 
+    high = k_to_fah(day["temp"]["max"])
+    low = k_to_fah(day["temp"]["min"])
     day_temp = k_to_fah(day["temp"]["day"])
+    night_temp = k_to_fah(day["temp"]["night"])
+    fl_day_temp = k_to_fah(day["feels_like"]["day"])
+    fl_night_temp = k_to_fah(day["feels_like"]["night"])
     pretty_date = f'{month_dict[_month]} {_day} {_year}'
+    sunrise = datetime.utcfromtimestamp(day["sunrise"])
 
-    print(pretty_date)
-    print(day_temp)
-    print("------")
+    # print(datetime.utctimestamp(sunrise).strftime("%H:%M:%S %Z%"))
+
+    # print(pacific.localize(sunrise.astimezone(pacific)).strftime(fmt))
+    # sunset =
+
+    # print(f' {pretty_date} '.center(34, "="))
+    # print("High".ljust(28, "."), str(high).rjust(5))
+    # print("Low".ljust(28, "."), str(low).rjust(5))
+    # print("Day".ljust(28, "."), str(day_temp).rjust(5))
+    # print("Night".ljust(28, "."), str(night_temp).rjust(5))
+    # print("Feels like day".ljust(28, "."), str(fl_day_temp).rjust(5))
+    # print("Feels like night".ljust(28, "."), str(fl_night_temp).rjust(5))
+    # print("      ")
+    # sunrise time
+
+    
 
 
 # y = json.loads(json_data)
