@@ -20,7 +20,7 @@ def k_to_fah(kalvin_temp):
     return round(9/5 * (kalvin_temp - 273.15) + 32)
 
 
-def writeMemo(target_location="Lake Kachess, WA"):
+def write_memo(target_location="Lake Kachess, WA"):
     # TODO: dynamic input of location to find weather
     location_dict = find_coordinates(target_location)
 
