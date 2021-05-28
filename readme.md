@@ -44,9 +44,29 @@ _By Andrew Dotterer_ 🌈
 
    ![Create Project](./assets/google_dashboard_create_project.png)
 
-   4. Search for the Gmail API using the search bar. Select. Then click "Enable".
+   4. Now that you've created a project, using the search bar, find for the Gmail API. Select. Then click "Enable".
 
    ![Enable API](./assets/gmail_api.png)
+
+   5. Select 'OAuth consent screen' under 'API & Services' in the sidebar. Choose the 'Desktop' application type.
+
+   ![OA auth](./assets/oa_auth_sidebar.png)
+
+   6. Select "Create Credentials". Select External or Internal(Internal is probably disabled)
+
+   7. Select "Create" --> fill out the form.
+
+   8. "Save and Continue"
+
+   9. Go to the Credentials tab, under 'OAuth 2.0 Client IDs', download the credentials JSON file.
+
+   ![Get Cred JSON](./assets/oauth_creds.png)
+
+   10. Move the JSON file to the main directory of this project (same directory as this readme.md) AND:
+
+       **---> IMPORTANT**: rename the JSON file to 'credentials.json'
+
+   11. 
 
 # Technology Used
 
