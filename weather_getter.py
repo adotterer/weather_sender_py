@@ -2,8 +2,8 @@ import requests
 import json
 import os
 from dotenv import load_dotenv
-from datetime import datetime
 from pytz import timezone
+from datetime import datetime
 
 pacific = timezone('US/Pacific')
 load_dotenv("./.env")
@@ -57,6 +57,7 @@ for day in weather_dict["daily"]:
     pretty_date = f'{month_dict[_month]} {_day} {_year}'
     sunrise = datetime.utcfromtimestamp(day["sunrise"])
 
+    print(datetime.fromtimestamp(day["sunrise"], tz=pacific))
     # print(datetime.utctimestamp(sunrise).strftime("%H:%M:%S %Z%"))
 
     # print(pacific.localize(sunrise.astimezone(pacific)).strftime(fmt))
@@ -71,8 +72,6 @@ for day in weather_dict["daily"]:
     # print("Feels like night".ljust(28, "."), str(fl_night_temp).rjust(5))
     # print("      ")
     # sunrise time
-
-    
 
 
 # y = json.loads(json_data)
