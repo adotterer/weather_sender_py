@@ -56,24 +56,28 @@ for day in weather_dict["daily"]:
     fl_night_temp = k_to_fah(day["feels_like"]["night"])
     [day_of_month, _byebye] = calday.split()
 
-    [_date, timestamp] = str(datetime.fromtimestamp(
+    [_date, sunrise_timestamp] = str(datetime.fromtimestamp(
         day["sunrise"], tz=pacific)).split()
+    [sunrise_time, _notsure] = sunrise_timestamp.split("-")
+
+    [_date, sunset_timestamp] = str(datetime.fromtimestamp(
+        day["sunset"], tz=pacific)).split()
+    [sunset_time, _notsure] = sunset_timestamp.split("-")
 
     pretty_date = f'{month_dict[month]} {day_of_month} {year}'
-    [sunrise_time, _notsure] = timestamp.split("-")
 
-    print(f' {pretty_date} '.center(54, "="))
+    print(f' {pretty_date} '.center(54, "="), "\n")
+
     print(f' Sunrise: {sunrise_time} '.rjust(24, "🌅"), "🌄".ljust(12, "🌄"))
     print("High".ljust(48, "."), str(high).rjust(5))
     print("Low".ljust(48, "."), str(low).rjust(5))
     print("Day".ljust(48, "."), str(day_temp).rjust(5))
-    print("Night".ljust(48, "."), str(night_temp).rjust(5))
     print("Feels like day".ljust(48, "."), str(fl_day_temp).rjust(5))
+    print('\n')
+    print(f' Sunset: {sunset_time} '.rjust(24, "🌌"), "🌠".ljust(12, "🌠"))
+    print("Night".ljust(48, "."), str(night_temp).rjust(5))
     print("Feels like night".ljust(48, "."), str(fl_night_temp).rjust(5))
     print("      ")
-
-# sunrise time
-
 
 
 # y = json.loads(json_data)
