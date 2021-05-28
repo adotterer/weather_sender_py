@@ -39,6 +39,14 @@ month_dict = {
     "12": "Dec"
 }
 
+emoji_dict = {
+    "Rain": "🌧",
+    "Clouds": "☁️",
+    "Clear": "☀️",
+
+
+}
+
 
 def k_to_fah(kalvin_temp):
     return round(9/5 * (kalvin_temp - 273.15) + 32)
@@ -55,6 +63,11 @@ for day in weather_dict["daily"]:
     fl_day_temp = k_to_fah(day["feels_like"]["day"])
     fl_night_temp = k_to_fah(day["feels_like"]["night"])
     [day_of_month, _byebye] = calday.split()
+    [weather] = day["weather"]
+    _id, forecast, forecast_description, icon = weather.values()
+    print(emoji_dict[forecast][0:1], len(emoji_dict[forecast]))
+    print(forecast_description)
+    # print(weather, "line 69")
 
     [_date, sunrise_timestamp] = str(datetime.fromtimestamp(
         day["sunrise"], tz=pacific)).split()
@@ -66,7 +79,7 @@ for day in weather_dict["daily"]:
 
     pretty_date = f'{month_dict[month]} {day_of_month} {year}'
 
-    print(f' {pretty_date} '.center(54, "="), "\n")
+    print(f' {pretty_date} '.center(54, emoji_dict[forecast][0:1]), "\n")
 
     print(f' Sunrise: {sunrise_time} '.rjust(24, "🌅"), "🌄".ljust(12, "🌄"))
     print("High".ljust(48, "."), str(high).rjust(5))
