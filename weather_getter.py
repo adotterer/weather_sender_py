@@ -8,7 +8,7 @@ from geolocate import find_coordinates
 from month_dict import month_dict
 from emoji_dict import emoji_dict
 import re
-weather_dict = json.load(open("./json/weather.json", "r"))
+
 
 pacific = timezone('US/Pacific')
 load_dotenv("./.env")
@@ -32,18 +32,20 @@ def write_memo(target_location="Lake Kachess, WA"):
     # |
     # |
     # v
-    # response = requests.get(
-    #     f"https://api.openweathermap.org/data/2.5/onecall?lat={latitude}&lon={longitude}&cnt=5&exclude=minutely,hourly&appid={API_KEY}"
-    # )
+    response = requests.get(
+        f"https://api.openweathermap.org/data/2.5/onecall?lat={latitude}&lon={longitude}&cnt=5&exclude=minutely,hourly&appid={API_KEY}"
+    )
 
-    # json_data = response.json()
+    json_data = response.json()
 
-    # with open("./json/weather.json", "w") as outfile:
-    #     json.dump(json_data, outfile, indent=4)
-    #
+    with open("./json/weather.json", "w") as outfile:
+        json.dump(json_data, outfile, indent=4)
+
     # ~ end ~
     memo = open(f"./memos/daily.txt", "w")
     memo.write("")
+
+    weather_dict = json.load(open("./json/weather.json", "r"))
 
     for day in weather_dict["daily"]:
         [year, month, calday] = datetime.utcfromtimestamp(
@@ -79,10 +81,6 @@ def write_memo(target_location="Lake Kachess, WA"):
         memo.write("\n \t" + f'forecast: {forecast_description} ' + "\n")
         memo.write(f'🌅 Sunrise: {sunrise_time} ' + "🌄".ljust(2, "🌄") + "\n")
 
-        # print(name.center(20))
-        # print("\n \t", f'forecast: {forecast_description} ', "\n")
-
-        # print(f' Sunrise: {sunrise_time} '.rjust(12, "🌅"), "🌄".ljust(6, "🌄"))
         memo.write("High".ljust(24, ".") + str(high).rjust(2))
         memo.write('\n')
         memo.write("Low".ljust(24, ".") + str(low).rjust(2))
