@@ -36,7 +36,17 @@ _By Andrew Dotterer_ 🌈
 
    1. Go to [Google Cloud Dashboard](https://console.cloud.google.com/)
 
-   2.
+   2. Activate free trial or set up your account
+
+   ![Activate](./assets/google_freetrial.png)
+
+   3. Click "Create Project" and follow the prompts
+
+   ![Create Project](./assets/google_dashboard_create_project.png)
+
+   4. Search for the Gmail API using the search bar. Select. Then click "Enable".
+
+   ![Enable API](./assets/gmail_api.png)
 
 # Technology Used
 
