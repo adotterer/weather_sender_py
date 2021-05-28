@@ -7,6 +7,7 @@ name = "pypi"
 EZGmail = "*"
 python-dotenv = "*"
 pytz = "*"
+geopy = "*"
 
 [dev-packages]
 EZGmail = "*"
