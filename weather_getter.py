@@ -4,6 +4,8 @@ import os
 from dotenv import load_dotenv
 from pytz import timezone
 from datetime import datetime
+from .geolocate import find_coordinates
+
 
 pacific = timezone('US/Pacific')
 load_dotenv("./.env")

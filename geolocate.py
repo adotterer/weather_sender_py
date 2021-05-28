@@ -3,9 +3,11 @@ geolocator = Nominatim(user_agent="weather_sender")
 
 
 def find_coordinates(location):
-    print(location)
-    geolocation = geolocator.geocode(("175 5th Avenue NYC"))
+    geolocation = geolocator.geocode(location)
     response = {"latitude": geolocation.latitude,
                 "longitude": geolocation.longitude}
-
+    print(geolocation.raw["display_name"])
     return response
+
+
+find_coordinates("Lake Kachess, WA")
