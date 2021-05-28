@@ -43,9 +43,12 @@ emoji_dict = {
     "Rain": "🌧",
     "Clouds": "☁️",
     "Clear": "☀️",
-
-
 }
+
+# this is necessary to make the emojiis one character long
+# for rjust, ljust
+for key in emoji_dict:
+    emoji_dict[key] = emoji_dict[key][0:1]
 
 
 def k_to_fah(kalvin_temp):
@@ -79,7 +82,7 @@ for day in weather_dict["daily"]:
 
     pretty_date = f'{month_dict[month]} {day_of_month} {year}'
 
-    print(f' {pretty_date} '.center(54, emoji_dict[forecast][0:1]), "\n")
+    print(f' {pretty_date} '.center(54, emoji_dict[forecast]), "\n")
 
     print(f' Sunrise: {sunrise_time} '.rjust(24, "🌅"), "🌄".ljust(12, "🌄"))
     print("High".ljust(48, "."), str(high).rjust(5))
