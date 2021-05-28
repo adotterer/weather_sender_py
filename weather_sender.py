@@ -19,9 +19,9 @@ def send_email():
                  daily_memo, mimeSubtype='plain')
 
 
-schedule.every().day.at("07:58").do(
+schedule.every().day.at("08:01").do(
     write_memo, target_location=location)
-schedule.every().day.at("08:00").do(send_email)
+schedule.every().day.at("08:02").do(send_email)
 
 while True:
     schedule.run_pending()
