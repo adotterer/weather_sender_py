@@ -8,6 +8,7 @@ EZGmail = "*"
 python-dotenv = "*"
 pytz = "*"
 geopy = "*"
+schedule = "*"
 
 [dev-packages]
 EZGmail = "*"

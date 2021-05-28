@@ -8,3 +8,6 @@
 -i https://pypi.org/simple
 ezgmail
 geopy==2.1.0
+schedule
+pytz
+python-dotenv
