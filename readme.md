@@ -8,6 +8,7 @@ _By Andrew Dotterer_ 🌈
 
 - [Requirements](#requirements)
 - [Getting Set Up](#getting-set-up)
+  - [Setup Gmail API](#setup-gmail-api)
 - [Technology Used](#technology-used)
 - [Updates](#updates)
 
@@ -31,6 +32,8 @@ _By Andrew Dotterer_ 🌈
 ```
 
 3. Get credentials and token from Gmail API:
+
+   ### Setup Gmail API
 
    **\*\* I would NOT recommend using Google's Gmail Python Quickstart guide**
 
@@ -66,7 +69,7 @@ _By Andrew Dotterer_ 🌈
 
        **---> IMPORTANT**: rename the JSON file to 'credentials.json'
 
-   11. 
+   11.
 
 # Technology Used
 
