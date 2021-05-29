@@ -69,7 +69,13 @@ _By Andrew Dotterer_ 🌈
 
        **---> IMPORTANT**: rename the JSON file to 'credentials.json'
 
-   11.
+   11. Next
+
+4. Launch virtual enviornment
+
+```bash
+   pipenv shell
+```
 
 # Technology Used
 

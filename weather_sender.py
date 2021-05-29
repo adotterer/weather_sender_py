@@ -1,10 +1,11 @@
 import ezgmail
-import schedule
+# import schedule
 import time
 from weather_getter import write_memo
 
 print("Logged into email: ", ezgmail.LOGGED_IN)
 location = "Lake Kachess, WA"
+
 
 def send_email():
     # write_memo(location)
@@ -18,10 +19,12 @@ def send_email():
                  daily_memo, mimeSubtype='plain')
 
 
-schedule.every().day.at("08:01").do(
-    write_memo, target_location=location)
-schedule.every().day.at("08:04").do(send_email)
+write_memo(location)
+send_email()
+# schedule.every().day.at("08:01").do(
+#     write_memo, target_location=location)
+# schedule.every().day.at("08:04").do(send_email)
 
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+# while True:
+#     schedule.run_pending()
+#     time.sleep(1)

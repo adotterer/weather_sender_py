@@ -1,104 +1,104 @@
-🌧🌧🌧🌧🌧🌧 May 28 2021 🌧🌧🌧🌧🌧🌧🌧
-Kachess Lake, Kittitas County, Washington 🌈
-
- 	forecast: light rain 
-🌅 Sunrise: 05:15:09 🌄🌄
-High....................52
-Low.....................40
-Day.....................49
-Feels like day..........46
-🌌 Sunset: 20:49:50 🌠🌠
-Night...................40
-Feels like night........38
-
-☁☁☁☁☁☁ May 29 2021 ☁☁☁☁☁☁☁
+☁☁☁☁☁☁ May 29, 2021 ☁☁☁☁☁☁
 Kachess Lake, Kittitas County, Washington 🌈
 
  	forecast: broken clouds 
 🌅 Sunrise: 05:14:25 🌄🌄
 High....................72
-Low.....................37
-Day.....................69
-Feels like day..........66
+Low.....................36
+Day.....................64
+Feels like day..........62
 🌌 Sunset: 20:50:50 🌠🌠
-Night...................51
-Feels like night........49
+Night...................50
+Feels like night........48
 
-☁☁☁☁☁☁ May 30 2021 ☁☁☁☁☁☁☁
+☁☁☁☁☁☁ May 30, 2021 ☁☁☁☁☁☁
 Kachess Lake, Kittitas County, Washington 🌈
 
  	forecast: overcast clouds 
 🌅 Sunrise: 05:13:42 🌄🌄
-High....................73
+High....................72
 Low.....................48
-Day.....................73
-Feels like day..........71
+Day.....................72
+Feels like day..........70
 🌌 Sunset: 20:51:49 🌠🌠
-Night...................54
-Feels like night........52
+Night...................55
+Feels like night........53
 
-☁☁☁☁☁☁ May 31 2021 ☁☁☁☁☁☁☁
+☁☁☁☁☁☁ May 31, 2021 ☁☁☁☁☁☁
 Kachess Lake, Kittitas County, Washington 🌈
 
  	forecast: broken clouds 
 🌅 Sunrise: 05:13:02 🌄🌄
 High....................76
-Low.....................51
-Day.....................76
-Feels like day..........75
+Low.....................50
+Day.....................75
+Feels like day..........74
 🌌 Sunset: 20:52:47 🌠🌠
-Night...................58
-Feels like night........58
+Night...................57
+Feels like night........56
 
-☁☁☁☁☁☁ Jun 01 2021 ☁☁☁☁☁☁☁
-Kachess Lake, Kittitas County, Washington 🌈
-
- 	forecast: scattered clouds 
-🌅 Sunrise: 05:12:25 🌄🌄
-High....................80
-Low.....................54
-Day.....................80
-Feels like day..........80
-🌌 Sunset: 20:53:42 🌠🌠
-Night...................60
-Feels like night........59
-
-☀☀☀☀☀☀ Jun 02 2021 ☀☀☀☀☀☀☀
+☀☀☀☀☀☀ Jun 01, 2021 ☀☀☀☀☀☀
 Kachess Lake, Kittitas County, Washington 🌈
 
  	forecast: clear sky 
-🌅 Sunrise: 05:11:49 🌄🌄
-High....................79
-Low.....................56
-Day.....................79
-Feels like day..........79
-🌌 Sunset: 20:54:36 🌠🌠
-Night...................58
-Feels like night........58
+🌅 Sunrise: 05:12:25 🌄🌄
+High....................86
+Low.....................55
+Day.....................86
+Feels like day..........83
+🌌 Sunset: 20:53:42 🌠🌠
+Night...................62
+Feels like night........61
 
-🌧🌧🌧🌧🌧🌧 Jun 03 2021 🌧🌧🌧🌧🌧🌧🌧
+☁☁☁☁☁☁ Jun 02, 2021 ☁☁☁☁☁☁
+Kachess Lake, Kittitas County, Washington 🌈
+
+ 	forecast: overcast clouds 
+🌅 Sunrise: 05:11:49 🌄🌄
+High....................81
+Low.....................58
+Day.....................81
+Feels like day..........80
+🌌 Sunset: 20:54:36 🌠🌠
+Night...................59
+Feels like night........59
+
+🌧🌧🌧🌧🌧🌧 Jun 03, 2021 🌧🌧🌧🌧🌧🌧
 Kachess Lake, Kittitas County, Washington 🌈
 
  	forecast: light rain 
 🌅 Sunrise: 05:11:16 🌄🌄
-High....................61
-Low.....................46
-Day.....................57
-Feels like day..........56
+High....................68
+Low.....................53
+Day.....................68
+Feels like day..........67
 🌌 Sunset: 20:55:29 🌠🌠
-Night...................46
-Feels like night........44
+Night...................54
+Feels like night........53
 
-🌧🌧🌧🌧🌧🌧 Jun 04 2021 🌧🌧🌧🌧🌧🌧🌧
+🌧🌧🌧🌧🌧🌧 Jun 04, 2021 🌧🌧🌧🌧🌧🌧
 Kachess Lake, Kittitas County, Washington 🌈
 
  	forecast: light rain 
 🌅 Sunrise: 05:10:46 🌄🌄
-High....................53
-Low.....................43
-Day.....................51
-Feels like day..........48
+High....................63
+Low.....................46
+Day.....................63
+Feels like day..........61
 🌌 Sunset: 20:56:19 🌠🌠
 Night...................46
-Feels like night........42
+Feels like night........43
+
+🌧🌧🌧🌧🌧🌧 Jun 05, 2021 🌧🌧🌧🌧🌧🌧
+Kachess Lake, Kittitas County, Washington 🌈
+
+ 	forecast: moderate rain 
+🌅 Sunrise: 05:10:18 🌄🌄
+High....................48
+Low.....................39
+Day.....................47
+Feels like day..........43
+🌌 Sunset: 20:57:07 🌠🌠
+Night...................39
+Feels like night........34
 
