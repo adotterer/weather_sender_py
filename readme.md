@@ -69,9 +69,13 @@ _By Andrew Dotterer_ 🌈
 
        **---> IMPORTANT**: rename the JSON file to 'credentials.json'
 
-   11. Next
-
 4. Launch virtual enviornment
+
+5. Set up Crontab
+
+```bash
+50 14 * * * cd /Users/adott/Documents/PROJECTS/py_email/ && /usr/local/bin/pipenv run python weather_sender.py
+```
 
 ```bash
    pipenv shell
