@@ -16,6 +16,7 @@ _By Andrew Dotterer_ 🌈
 
 - Python 3.0+
 - Google Account
+- Cron via Linux (Ubunutu) or macOS
 
 # Getting Set Up
 
@@ -71,14 +72,16 @@ _By Andrew Dotterer_ 🌈
 
 4. Launch virtual enviornment
 
-5. Set up Crontab
-
-```bash
-50 14 * * * cd /Users/adott/Documents/PROJECTS/py_email/ && /usr/local/bin/pipenv run python weather_sender.py
-```
-
 ```bash
    pipenv shell
+```
+
+5. Set up Crontab
+
+Change paths as needed:
+
+```bash
+0 8 * * * cd /Path/To/This/Project/ && /usr/local/bin/pipenv run python weather_sender.py
 ```
 
 # Technology Used

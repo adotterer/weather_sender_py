@@ -1,104 +1,104 @@
 ☀☀☀☀☀☀ Jun 01, 2021 ☀☀☀☀☀☀
-Kachess Lake, Kittitas County, Washington 🌈
+Granite Falls, Snohomish County, Washington, 98252 🌈
 
  	forecast: clear sky 
-🌅 Sunrise: 05:12:25 🌄🌄
-High....................85
-Low.....................57
-Day.....................85
-Feels like day..........82
-🌌 Sunset: 20:53:42 🌠🌠
-Night...................63
-Feels like night........63
+🌅 Sunrise: 05:12:06 🌄🌄
+High....................81
+Low.....................56
+Day.....................81
+Feels like day..........81
+🌌 Sunset: 20:59:31 🌠🌠
+Night...................60
+Feels like night........60
 
 ☀☀☀☀☀☀ Jun 02, 2021 ☀☀☀☀☀☀
-Kachess Lake, Kittitas County, Washington 🌈
+Granite Falls, Snohomish County, Washington, 98252 🌈
 
  	forecast: clear sky 
-🌅 Sunrise: 05:11:49 🌄🌄
+🌅 Sunrise: 05:11:30 🌄🌄
 High....................83
-Low.....................59
-Day.....................83
+Low.....................58
+Day.....................81
 Feels like day..........81
-🌌 Sunset: 20:54:36 🌠🌠
-Night...................60
-Feels like night........59
+🌌 Sunset: 21:00:26 🌠🌠
+Night...................58
+Feels like night........57
 
 ☁☁☁☁☁☁ Jun 03, 2021 ☁☁☁☁☁☁
-Kachess Lake, Kittitas County, Washington 🌈
+Granite Falls, Snohomish County, Washington, 98252 🌈
 
- 	forecast: few clouds 
-🌅 Sunrise: 05:11:16 🌄🌄
-High....................75
+ 	forecast: overcast clouds 
+🌅 Sunrise: 05:10:55 🌄🌄
+High....................74
 Low.....................53
-Day.....................75
-Feels like day..........74
-🌌 Sunset: 20:55:29 🌠🌠
-Night...................53
+Day.....................73
+Feels like day..........73
+🌌 Sunset: 21:01:20 🌠🌠
+Night...................54
 Feels like night........53
 
 ☁☁☁☁☁☁ Jun 04, 2021 ☁☁☁☁☁☁
-Kachess Lake, Kittitas County, Washington 🌈
+Granite Falls, Snohomish County, Washington, 98252 🌈
 
- 	forecast: scattered clouds 
-🌅 Sunrise: 05:10:46 🌄🌄
-High....................68
-Low.....................47
-Day.....................68
-Feels like day..........66
-🌌 Sunset: 20:56:19 🌠🌠
-Night...................47
-Feels like night........44
+ 	forecast: broken clouds 
+🌅 Sunrise: 05:10:24 🌄🌄
+High....................69
+Low.....................49
+Day.....................69
+Feels like day..........68
+🌌 Sunset: 21:02:12 🌠🌠
+Night...................51
+Feels like night........50
 
 🌧🌧🌧🌧🌧🌧 Jun 05, 2021 🌧🌧🌧🌧🌧🌧
-Kachess Lake, Kittitas County, Washington 🌈
+Granite Falls, Snohomish County, Washington, 98252 🌈
 
  	forecast: light rain 
-🌅 Sunrise: 05:10:18 🌄🌄
-High....................50
-Low.....................44
-Day.....................49
-Feels like day..........45
-🌌 Sunset: 20:57:07 🌠🌠
-Night...................44
-Feels like night........41
+🌅 Sunrise: 05:09:54 🌄🌄
+High....................54
+Low.....................48
+Day.....................54
+Feels like day..........52
+🌌 Sunset: 21:03:02 🌠🌠
+Night...................48
+Feels like night........48
 
 🌧🌧🌧🌧🌧🌧 Jun 06, 2021 🌧🌧🌧🌧🌧🌧
-Kachess Lake, Kittitas County, Washington 🌈
+Granite Falls, Snohomish County, Washington, 98252 🌈
 
  	forecast: light rain 
-🌅 Sunrise: 05:09:52 🌄🌄
+🌅 Sunrise: 05:09:28 🌄🌄
+High....................58
+Low.....................45
+Day.....................58
+Feels like day..........56
+🌌 Sunset: 21:03:49 🌠🌠
+Night...................45
+Feels like night........44
+
+🌧🌧🌧🌧🌧🌧 Jun 07, 2021 🌧🌧🌧🌧🌧🌧
+Granite Falls, Snohomish County, Washington, 98252 🌈
+
+ 	forecast: light rain 
+🌅 Sunrise: 05:09:03 🌄🌄
 High....................56
-Low.....................39
+Low.....................44
 Day.....................56
-Feels like day..........53
-🌌 Sunset: 20:57:54 🌠🌠
-Night...................40
-Feels like night........37
-
-✌✌✌✌✌✌ Jun 07, 2021 ✌✌✌✌✌✌
-Kachess Lake, Kittitas County, Washington 🌈
-
- 	forecast: rain and snow 
-🌅 Sunrise: 05:09:29 🌄🌄
-High....................52
-Low.....................40
-Day.....................52
-Feels like day..........50
-🌌 Sunset: 20:58:39 🌠🌠
-Night...................40
-Feels like night........37
+Feels like day..........54
+🌌 Sunset: 21:04:35 🌠🌠
+Night...................47
+Feels like night........45
 
 🌧🌧🌧🌧🌧🌧 Jun 08, 2021 🌧🌧🌧🌧🌧🌧
-Kachess Lake, Kittitas County, Washington 🌈
+Granite Falls, Snohomish County, Washington, 98252 🌈
 
  	forecast: light rain 
-🌅 Sunrise: 05:09:09 🌄🌄
-High....................55
-Low.....................39
-Day.....................55
-Feels like day..........53
-🌌 Sunset: 20:59:21 🌠🌠
-Night...................44
-Feels like night........42
+🌅 Sunrise: 05:08:42 🌄🌄
+High....................54
+Low.....................44
+Day.....................51
+Feels like day..........49
+🌌 Sunset: 21:05:19 🌠🌠
+Night...................48
+Feels like night........48
 
