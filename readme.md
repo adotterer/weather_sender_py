@@ -36,7 +36,7 @@ _By Andrew Dotterer_ 🌈
 
    ### Setup Gmail API
 
-   **\*\* I would NOT recommend using Google's Gmail Python Quickstart guide**
+   **\*\* Do not use Google's Gmail Python Quickstart guide**
 
    1. Go to [Google Cloud Dashboard](https://console.cloud.google.com/)
 
