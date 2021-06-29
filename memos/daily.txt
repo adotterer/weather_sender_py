@@ -1,104 +1,104 @@
-🌧🌧🌧🌧🌧🌧 Jun 13, 2021 🌧🌧🌧🌧🌧🌧
-Diablo Lake, Whatcom County, Washington 🌈
+☀☀☀☀☀☀ Jun 28, 2021 ☀☀☀☀☀☀
+San Juan Island, Friday Harbor, San Juan County, Washington, 98250 🌈
 
- 	forecast: moderate rain 
-🌅 Sunrise: 05:01:14 🌄🌄
-High....................63
-Low.....................56
-Day.....................63
-Feels like day..........64
-🌌 Sunset: 21:08:00 🌠🌠
-Night...................57
-Feels like night........57
+ 	forecast: clear sky 
+🌅 Sunrise: 05:12:54 🌄🌄
+High....................79
+Low.....................66
+Day.....................75
+Feels like day..........74
+🌌 Sunset: 21:18:17 🌠🌠
+Night...................70
+Feels like night........69
 
-🌧🌧🌧🌧🌧🌧 Jun 14, 2021 🌧🌧🌧🌧🌧🌧
-Diablo Lake, Whatcom County, Washington 🌈
-
- 	forecast: moderate rain 
-🌅 Sunrise: 05:01:08 🌄🌄
-High....................72
-Low.....................54
-Day.....................69
-Feels like day..........68
-🌌 Sunset: 21:08:31 🌠🌠
-Night...................54
-Feels like night........54
-
-🌧🌧🌧🌧🌧🌧 Jun 15, 2021 🌧🌧🌧🌧🌧🌧
-Diablo Lake, Whatcom County, Washington 🌈
-
- 	forecast: light rain 
-🌅 Sunrise: 05:01:04 🌄🌄
-High....................67
-Low.....................53
-Day.....................66
-Feels like day..........65
-🌌 Sunset: 21:08:59 🌠🌠
-Night...................53
-Feels like night........53
-
-☁☁☁☁☁☁ Jun 16, 2021 ☁☁☁☁☁☁
-Diablo Lake, Whatcom County, Washington 🌈
+☁☁☁☁☁☁ Jun 29, 2021 ☁☁☁☁☁☁
+San Juan Island, Friday Harbor, San Juan County, Washington, 98250 🌈
 
  	forecast: scattered clouds 
-🌅 Sunrise: 05:01:02 🌄🌄
-High....................73
-Low.....................50
-Day.....................72
-Feels like day..........71
-🌌 Sunset: 21:09:24 🌠🌠
-Night...................55
-Feels like night........54
+🌅 Sunrise: 05:13:26 🌄🌄
+High....................70
+Low.....................59
+Day.....................66
+Feels like day..........65
+🌌 Sunset: 21:18:08 🌠🌠
+Night...................63
+Feels like night........63
 
-☀☀☀☀☀☀ Jun 17, 2021 ☀☀☀☀☀☀
-Diablo Lake, Whatcom County, Washington 🌈
+☁☁☁☁☁☁ Jun 30, 2021 ☁☁☁☁☁☁
+San Juan Island, Friday Harbor, San Juan County, Washington, 98250 🌈
 
- 	forecast: clear sky 
-🌅 Sunrise: 05:01:04 🌄🌄
-High....................78
-Low.....................51
-Day.....................78
-Feels like day..........77
-🌌 Sunset: 21:09:47 🌠🌠
+ 	forecast: scattered clouds 
+🌅 Sunrise: 05:14:00 🌄🌄
+High....................64
+Low.....................57
+Day.....................62
+Feels like day..........62
+🌌 Sunset: 21:17:56 🌠🌠
+Night...................59
+Feels like night........58
+
+☁☁☁☁☁☁ Jul 01, 2021 ☁☁☁☁☁☁
+San Juan Island, Friday Harbor, San Juan County, Washington, 98250 🌈
+
+ 	forecast: scattered clouds 
+🌅 Sunrise: 05:14:36 🌄🌄
+High....................65
+Low.....................56
+Day.....................65
+Feels like day..........65
+🌌 Sunset: 21:17:42 🌠🌠
 Night...................58
-Feels like night........57
+Feels like night........58
 
-☀☀☀☀☀☀ Jun 18, 2021 ☀☀☀☀☀☀
-Diablo Lake, Whatcom County, Washington 🌈
+☁☁☁☁☁☁ Jul 02, 2021 ☁☁☁☁☁☁
+San Juan Island, Friday Harbor, San Juan County, Washington, 98250 🌈
 
- 	forecast: clear sky 
-🌅 Sunrise: 05:01:08 🌄🌄
-High....................81
+ 	forecast: broken clouds 
+🌅 Sunrise: 05:15:14 🌄🌄
+High....................64
 Low.....................55
-Day.....................81
-Feels like day..........80
-🌌 Sunset: 21:10:08 🌠🌠
+Day.....................63
+Feels like day..........62
+🌌 Sunset: 21:17:25 🌠🌠
 Night...................60
 Feels like night........59
 
-☁☁☁☁☁☁ Jun 19, 2021 ☁☁☁☁☁☁
-Diablo Lake, Whatcom County, Washington 🌈
+☁☁☁☁☁☁ Jul 03, 2021 ☁☁☁☁☁☁
+San Juan Island, Friday Harbor, San Juan County, Washington, 98250 🌈
 
- 	forecast: overcast clouds 
-🌅 Sunrise: 05:01:14 🌄🌄
-High....................72
+ 	forecast: few clouds 
+🌅 Sunrise: 05:15:55 🌄🌄
+High....................64
+Low.....................56
+Day.....................61
+Feels like day..........60
+🌌 Sunset: 21:17:05 🌠🌠
+Night...................57
+Feels like night........56
+
+☁☁☁☁☁☁ Jul 04, 2021 ☁☁☁☁☁☁
+San Juan Island, Friday Harbor, San Juan County, Washington, 98250 🌈
+
+ 	forecast: few clouds 
+🌅 Sunrise: 05:16:38 🌄🌄
+High....................62
 Low.....................54
-Day.....................71
-Feels like day..........70
-🌌 Sunset: 21:10:25 🌠🌠
-Night...................59
-Feels like night........59
+Day.....................60
+Feels like day..........60
+🌌 Sunset: 21:16:42 🌠🌠
+Night...................57
+Feels like night........56
 
-🌧🌧🌧🌧🌧🌧 Jun 20, 2021 🌧🌧🌧🌧🌧🌧
-Diablo Lake, Whatcom County, Washington 🌈
+☁☁☁☁☁☁ Jul 05, 2021 ☁☁☁☁☁☁
+San Juan Island, Friday Harbor, San Juan County, Washington, 98250 🌈
 
- 	forecast: light rain 
-🌅 Sunrise: 05:01:24 🌄🌄
-High....................83
-Low.....................59
-Day.....................83
-Feels like day..........82
-🌌 Sunset: 21:10:41 🌠🌠
-Night...................64
-Feels like night........64
+ 	forecast: broken clouds 
+🌅 Sunrise: 05:17:23 🌄🌄
+High....................61
+Low.....................54
+Day.....................61
+Feels like day..........60
+🌌 Sunset: 21:16:17 🌠🌠
+Night...................56
+Feels like night........56
 

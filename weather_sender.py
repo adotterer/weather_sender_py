@@ -2,7 +2,7 @@ import ezgmail
 from weather_getter import write_memo
 
 print("Logged into email: ", ezgmail.LOGGED_IN)
-location = "Diablo Lake, Whatcom County, Washington 98267"
+location = "Seattle, Washington"
 
 
 def send_email():
