@@ -1,104 +1,104 @@
-☀☀☀☀☀☀ Jun 28, 2021 ☀☀☀☀☀☀
-San Juan Island, Friday Harbor, San Juan County, Washington, 98250 🌈
+☀☀☀☀☀☀ Jul 06, 2021 ☀☀☀☀☀☀
+Seattle, King County, Washington 🌈
 
  	forecast: clear sky 
-🌅 Sunrise: 05:12:54 🌄🌄
-High....................79
-Low.....................66
+🌅 Sunrise: 05:19:13 🌄🌄
+High....................84
+Low.....................56
+Day.....................82
+Feels like day..........81
+🌌 Sunset: 21:08:41 🌠🌠
+Night...................61
+Feels like night........60
+
+☁☁☁☁☁☁ Jul 07, 2021 ☁☁☁☁☁☁
+Seattle, King County, Washington 🌈
+
+ 	forecast: scattered clouds 
+🌅 Sunrise: 05:20:01 🌄🌄
+High....................78
+Low.....................56
 Day.....................75
 Feels like day..........74
-🌌 Sunset: 21:18:17 🌠🌠
-Night...................70
-Feels like night........69
+🌌 Sunset: 21:08:12 🌠🌠
+Night...................57
+Feels like night........56
 
-☁☁☁☁☁☁ Jun 29, 2021 ☁☁☁☁☁☁
-San Juan Island, Friday Harbor, San Juan County, Washington, 98250 🌈
+☀☀☀☀☀☀ Jul 08, 2021 ☀☀☀☀☀☀
+Seattle, King County, Washington 🌈
 
- 	forecast: scattered clouds 
-🌅 Sunrise: 05:13:26 🌄🌄
-High....................70
-Low.....................59
-Day.....................66
-Feels like day..........65
-🌌 Sunset: 21:18:08 🌠🌠
-Night...................63
-Feels like night........63
-
-☁☁☁☁☁☁ Jun 30, 2021 ☁☁☁☁☁☁
-San Juan Island, Friday Harbor, San Juan County, Washington, 98250 🌈
-
- 	forecast: scattered clouds 
-🌅 Sunrise: 05:14:00 🌄🌄
-High....................64
-Low.....................57
-Day.....................62
-Feels like day..........62
-🌌 Sunset: 21:17:56 🌠🌠
+ 	forecast: clear sky 
+🌅 Sunrise: 05:20:50 🌄🌄
+High....................81
+Low.....................51
+Day.....................77
+Feels like day..........76
+🌌 Sunset: 21:07:41 🌠🌠
 Night...................59
 Feels like night........58
 
-☁☁☁☁☁☁ Jul 01, 2021 ☁☁☁☁☁☁
-San Juan Island, Friday Harbor, San Juan County, Washington, 98250 🌈
+☀☀☀☀☀☀ Jul 09, 2021 ☀☀☀☀☀☀
+Seattle, King County, Washington 🌈
 
- 	forecast: scattered clouds 
-🌅 Sunrise: 05:14:36 🌄🌄
-High....................65
+ 	forecast: clear sky 
+🌅 Sunrise: 05:21:40 🌄🌄
+High....................84
+Low.....................53
+Day.....................84
+Feels like day..........82
+🌌 Sunset: 21:07:07 🌠🌠
+Night...................63
+Feels like night........62
+
+☀☀☀☀☀☀ Jul 10, 2021 ☀☀☀☀☀☀
+Seattle, King County, Washington 🌈
+
+ 	forecast: clear sky 
+🌅 Sunrise: 05:22:33 🌄🌄
+High....................87
+Low.....................57
+Day.....................87
+Feels like day..........85
+🌌 Sunset: 21:06:31 🌠🌠
+Night...................62
+Feels like night........61
+
+☀☀☀☀☀☀ Jul 11, 2021 ☀☀☀☀☀☀
+Seattle, King County, Washington 🌈
+
+ 	forecast: clear sky 
+🌅 Sunrise: 05:23:27 🌄🌄
+High....................86
 Low.....................56
-Day.....................65
-Feels like day..........65
-🌌 Sunset: 21:17:42 🌠🌠
-Night...................58
-Feels like night........58
+Day.....................86
+Feels like day..........83
+🌌 Sunset: 21:05:52 🌠🌠
+Night...................60
+Feels like night........60
 
-☁☁☁☁☁☁ Jul 02, 2021 ☁☁☁☁☁☁
-San Juan Island, Friday Harbor, San Juan County, Washington, 98250 🌈
+☀☀☀☀☀☀ Jul 12, 2021 ☀☀☀☀☀☀
+Seattle, King County, Washington 🌈
 
- 	forecast: broken clouds 
-🌅 Sunrise: 05:15:14 🌄🌄
-High....................64
-Low.....................55
-Day.....................63
-Feels like day..........62
-🌌 Sunset: 21:17:25 🌠🌠
+ 	forecast: clear sky 
+🌅 Sunrise: 05:24:23 🌄🌄
+High....................84
+Low.....................54
+Day.....................84
+Feels like day..........82
+🌌 Sunset: 21:05:11 🌠🌠
 Night...................60
 Feels like night........59
 
-☁☁☁☁☁☁ Jul 03, 2021 ☁☁☁☁☁☁
-San Juan Island, Friday Harbor, San Juan County, Washington, 98250 🌈
+☀☀☀☀☀☀ Jul 13, 2021 ☀☀☀☀☀☀
+Seattle, King County, Washington 🌈
 
- 	forecast: few clouds 
-🌅 Sunrise: 05:15:55 🌄🌄
-High....................64
-Low.....................56
-Day.....................61
-Feels like day..........60
-🌌 Sunset: 21:17:05 🌠🌠
-Night...................57
-Feels like night........56
-
-☁☁☁☁☁☁ Jul 04, 2021 ☁☁☁☁☁☁
-San Juan Island, Friday Harbor, San Juan County, Washington, 98250 🌈
-
- 	forecast: few clouds 
-🌅 Sunrise: 05:16:38 🌄🌄
-High....................62
+ 	forecast: clear sky 
+🌅 Sunrise: 05:25:21 🌄🌄
+High....................84
 Low.....................54
-Day.....................60
-Feels like day..........60
-🌌 Sunset: 21:16:42 🌠🌠
-Night...................57
-Feels like night........56
-
-☁☁☁☁☁☁ Jul 05, 2021 ☁☁☁☁☁☁
-San Juan Island, Friday Harbor, San Juan County, Washington, 98250 🌈
-
- 	forecast: broken clouds 
-🌅 Sunrise: 05:17:23 🌄🌄
-High....................61
-Low.....................54
-Day.....................61
-Feels like day..........60
-🌌 Sunset: 21:16:17 🌠🌠
-Night...................56
-Feels like night........56
+Day.....................84
+Feels like day..........82
+🌌 Sunset: 21:04:28 🌠🌠
+Night...................58
+Feels like night........58
 

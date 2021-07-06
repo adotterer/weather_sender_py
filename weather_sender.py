@@ -2,7 +2,7 @@ import ezgmail
 from weather_getter import write_memo
 
 print("Logged into email: ", ezgmail.LOGGED_IN)
-location = "Seattle, Washington"
+location = "Friday Harbor, Washington"
 
 
 def send_email():
