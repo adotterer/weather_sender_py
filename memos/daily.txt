@@ -1,104 +1,104 @@
 ☁☁☁☁☁☁ Jul 15, 2021 ☁☁☁☁☁☁
-Friday Harbor, San Juan County, Washington, 98250 🌈
-
- 	forecast: few clouds 
-🌅 Sunrise: 05:26:17 🌄🌄
-High....................63
-Low.....................54
-Day.....................57
-Feels like day..........57
-🌌 Sunset: 21:09:27 🌠🌠
-Night...................56
-Feels like night........55
-
-☁☁☁☁☁☁ Jul 16, 2021 ☁☁☁☁☁☁
-Friday Harbor, San Juan County, Washington, 98250 🌈
+Port Angeles, Clallam County, Washington, 98362 🌈
 
  	forecast: scattered clouds 
-🌅 Sunrise: 05:27:21 🌄🌄
-High....................60
-Low.....................54
-Day.....................60
-Feels like day..........59
-🌌 Sunset: 21:08:34 🌠🌠
-Night...................57
-Feels like night........56
-
-☁☁☁☁☁☁ Jul 17, 2021 ☁☁☁☁☁☁
-Friday Harbor, San Juan County, Washington, 98250 🌈
-
- 	forecast: scattered clouds 
-🌅 Sunrise: 05:28:27 🌄🌄
-High....................64
-Low.....................53
-Day.....................60
-Feels like day..........59
-🌌 Sunset: 21:07:39 🌠🌠
-Night...................56
-Feels like night........55
-
-☁☁☁☁☁☁ Jul 18, 2021 ☁☁☁☁☁☁
-Friday Harbor, San Juan County, Washington, 98250 🌈
-
- 	forecast: overcast clouds 
-🌅 Sunrise: 05:29:34 🌄🌄
-High....................60
-Low.....................54
-Day.....................60
-Feels like day..........59
-🌌 Sunset: 21:06:41 🌠🌠
-Night...................56
-Feels like night........55
-
-☀☀☀☀☀☀ Jul 19, 2021 ☀☀☀☀☀☀
-Friday Harbor, San Juan County, Washington, 98250 🌈
-
- 	forecast: clear sky 
-🌅 Sunrise: 05:30:42 🌄🌄
-High....................62
-Low.....................53
-Day.....................62
-Feels like day..........61
-🌌 Sunset: 21:05:42 🌠🌠
+🌅 Sunrise: 05:29:40 🌄🌄
+High....................66
+Low.....................56
+Day.....................63
+Feels like day..........63
+🌌 Sunset: 21:09:23 🌠🌠
 Night...................57
 Feels like night........57
 
-☀☀☀☀☀☀ Jul 20, 2021 ☀☀☀☀☀☀
-Friday Harbor, San Juan County, Washington, 98250 🌈
+☁☁☁☁☁☁ Jul 16, 2021 ☁☁☁☁☁☁
+Port Angeles, Clallam County, Washington, 98362 🌈
 
- 	forecast: clear sky 
-🌅 Sunrise: 05:31:51 🌄🌄
-High....................64
-Low.....................54
-Day.....................61
-Feels like day..........60
-🌌 Sunset: 21:04:40 🌠🌠
-Night...................55
-Feels like night........54
-
-☀☀☀☀☀☀ Jul 21, 2021 ☀☀☀☀☀☀
-Friday Harbor, San Juan County, Washington, 98250 🌈
-
- 	forecast: clear sky 
-🌅 Sunrise: 05:33:02 🌄🌄
+ 	forecast: overcast clouds 
+🌅 Sunrise: 05:30:43 🌄🌄
 High....................62
-Low.....................52
-Day.....................61
+Low.....................55
+Day.....................60
 Feels like day..........60
-🌌 Sunset: 21:03:36 🌠🌠
-Night...................55
-Feels like night........54
+🌌 Sunset: 21:08:31 🌠🌠
+Night...................58
+Feels like night........57
 
-☀☀☀☀☀☀ Jul 22, 2021 ☀☀☀☀☀☀
-Friday Harbor, San Juan County, Washington, 98250 🌈
+☁☁☁☁☁☁ Jul 17, 2021 ☁☁☁☁☁☁
+Port Angeles, Clallam County, Washington, 98362 🌈
 
- 	forecast: clear sky 
-🌅 Sunrise: 05:34:13 🌄🌄
+ 	forecast: broken clouds 
+🌅 Sunrise: 05:31:47 🌄🌄
 High....................63
-Low.....................52
-Day.....................61
-Feels like day..........60
-🌌 Sunset: 21:02:30 🌠🌠
-Night...................54
-Feels like night........54
+Low.....................55
+Day.....................62
+Feels like day..........61
+🌌 Sunset: 21:07:37 🌠🌠
+Night...................57
+Feels like night........56
+
+☁☁☁☁☁☁ Jul 18, 2021 ☁☁☁☁☁☁
+Port Angeles, Clallam County, Washington, 98362 🌈
+
+ 	forecast: overcast clouds 
+🌅 Sunrise: 05:32:53 🌄🌄
+High....................65
+Low.....................55
+Day.....................65
+Feels like day..........64
+🌌 Sunset: 21:06:41 🌠🌠
+Night...................59
+Feels like night........59
+
+☁☁☁☁☁☁ Jul 19, 2021 ☁☁☁☁☁☁
+Port Angeles, Clallam County, Washington, 98362 🌈
+
+ 	forecast: few clouds 
+🌅 Sunrise: 05:34:00 🌄🌄
+High....................67
+Low.....................58
+Day.....................67
+Feels like day..........67
+🌌 Sunset: 21:05:42 🌠🌠
+Night...................59
+Feels like night........59
+
+☁☁☁☁☁☁ Jul 20, 2021 ☁☁☁☁☁☁
+Port Angeles, Clallam County, Washington, 98362 🌈
+
+ 	forecast: scattered clouds 
+🌅 Sunrise: 05:35:08 🌄🌄
+High....................65
+Low.....................57
+Day.....................65
+Feels like day..........64
+🌌 Sunset: 21:04:42 🌠🌠
+Night...................57
+Feels like night........56
+
+☁☁☁☁☁☁ Jul 21, 2021 ☁☁☁☁☁☁
+Port Angeles, Clallam County, Washington, 98362 🌈
+
+ 	forecast: scattered clouds 
+🌅 Sunrise: 05:36:17 🌄🌄
+High....................64
+Low.....................55
+Day.....................64
+Feels like day..........63
+🌌 Sunset: 21:03:39 🌠🌠
+Night...................57
+Feels like night........56
+
+☁☁☁☁☁☁ Jul 22, 2021 ☁☁☁☁☁☁
+Port Angeles, Clallam County, Washington, 98362 🌈
+
+ 	forecast: scattered clouds 
+🌅 Sunrise: 05:37:28 🌄🌄
+High....................64
+Low.....................55
+Day.....................64
+Feels like day..........64
+🌌 Sunset: 21:02:34 🌠🌠
+Night...................56
+Feels like night........55
 
